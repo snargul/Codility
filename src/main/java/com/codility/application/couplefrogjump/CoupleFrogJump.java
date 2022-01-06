@@ -18,6 +18,7 @@ public class CoupleFrogJump {
         return value < 1 || value > 1000000000;
     }
 
+    //This task gets %33 performance result. It should be improved.
     public static int solution(int[] blocks) {
         if (isInvalidArray(blocks))
             return 0;
